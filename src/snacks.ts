@@ -2,7 +2,7 @@
 import { printFeatureMessage } from "./animation";
 
 // Define a list of snack names
-const snacks: string[] = ['Chips', 'Cookies', 'Popcorn', 'Candy', 'Pretzels', 'Doritos','Oreos','Brownies'];
+export const snacks: string[] = ['chips', 'cookies', 'popcorn', 'candy', 'pretzels', 'doritos', 'oreos', 'brownies'];
 
 // Define and export a function that prints the snacks
 export function printSnacks(): void {
