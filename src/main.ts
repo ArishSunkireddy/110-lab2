@@ -7,3 +7,10 @@ export function print_cool_snacks(): void {
 }
 
 print_cool_snacks();
+import { printSnacks } from "./snacks";
+
+function main(): void {
+    printSnacks();
+}
+
+main();
